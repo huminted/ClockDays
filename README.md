@@ -37,7 +37,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></com.iwakeup.countdown.myapplication.DayGroup>
+        app:layout_constraintTop_toTopOf="parent">
+</com.iwakeup.countdown.myapplication.DayGroup>
 ```
 
 ###### 2.2 Activity
