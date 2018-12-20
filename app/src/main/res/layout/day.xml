@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <RelativeLayout
+        android:id="@+id/bg_singin_circle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_circle_green_solid">
+
+        <TextView
+            android:id="@+id/tv_sigin_content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/text"
+            android:textColor="#4ACA6D"
+            android:textSize="9sp" />
+
+        <ImageView
+            android:id="@+id/iv_icon_sigin"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            android:background="@drawable/mission_gray_sigin_icon" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/next_line"
+        android:layout_width="15dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/bg_singin_circle"
+        android:layout_weight="1"
+        android:background="#4ACA6D"/>
+
+
+
+</LinearLayout>
