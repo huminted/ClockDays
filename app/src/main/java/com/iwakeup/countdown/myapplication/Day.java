@@ -39,7 +39,6 @@ public class Day extends RelativeLayout {
         initView();
     }
 
-
     private void initView(){
         View view=LayoutInflater.from(getContext()).inflate(R.layout.day,null);
         mLine=view.findViewById(R.id.next_line);
@@ -47,10 +46,7 @@ public class Day extends RelativeLayout {
         mSignIcon=view.findViewById(R.id.iv_icon_sigin);
         mCircleText=view.findViewById(R.id.tv_sigin_content1);
         this.addView(view);
-
-
     }
-
 
     public void hideLine(){
         mLine.setVisibility(GONE);
@@ -62,8 +58,6 @@ public class Day extends RelativeLayout {
         circleState.setLine(mLine);
         circleState.setSignIcon(mSignIcon);
     }
-
-
 
     public void setDayText(String text){
         mCircleText.setText(text);
