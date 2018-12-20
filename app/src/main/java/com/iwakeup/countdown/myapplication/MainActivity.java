@@ -28,10 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         group = findViewById(R.id.group);
         group.addDays(6);
 
-
         setNowDay();
         continueSignedDay();
-
 
     }
 
@@ -51,13 +49,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             group.setDaysSigned(i);
         }
     }
-
+    // 设置Day Text
     private void setDayText(int i,String text){
-        // 设置Day Text
         group.getDayAt(i).setDayText(text);
     }
 
-
+    // 下一天
     private void nextDay(){
         if (day<group.getDays()-1){
             day+=1;
@@ -69,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    // 重置状态，所有Day恢复默认状态
     private void reset(){
         day=0;
         group.reset();
