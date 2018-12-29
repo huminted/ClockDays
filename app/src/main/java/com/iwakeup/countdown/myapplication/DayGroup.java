@@ -9,12 +9,8 @@ import com.iwakeup.countdown.myapplication.States.DefaultState;
 import com.iwakeup.countdown.myapplication.States.NowDaySignedState;
 import com.iwakeup.countdown.myapplication.States.NowDayState;
 import com.iwakeup.countdown.myapplication.States.SignedState;
-
 import java.util.ArrayList;
 import java.util.List;
-
-import static android.widget.RelativeLayout.CENTER_IN_PARENT;
-
 /**
  * Created by humin06 on 2018/12/19.
  */

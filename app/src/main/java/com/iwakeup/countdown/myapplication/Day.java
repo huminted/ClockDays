@@ -59,6 +59,7 @@ public class Day extends RelativeLayout {
         circleState.setSignIcon(mSignIcon);
     }
 
+
     public void setDayText(String text){
         mCircleText.setText(text);
     }
