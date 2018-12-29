@@ -83,7 +83,7 @@ group.setDaysSigned(0);
 
 ##### 3.自定义状态
 
-###### 1.分别实现四种个性化状态，继承至CircleState
+###### 1.分别实现四种个性化状态，实现CircleState接口
 
 ```java
 /**
