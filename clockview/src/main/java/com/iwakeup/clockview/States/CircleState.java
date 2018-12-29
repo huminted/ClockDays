@@ -1,4 +1,4 @@
-package com.iwakeup.countdown.myapplication.States;
+package com.iwakeup.clockview.States;
 
 
 import android.view.View;

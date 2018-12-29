@@ -6,9 +6,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.iwakeup.clockview.DayGroup;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private  DayGroup group;
+    private DayGroup group;
     // 连续打卡天数
     private int day=0;
 

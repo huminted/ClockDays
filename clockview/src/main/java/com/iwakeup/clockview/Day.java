@@ -1,7 +1,5 @@
-package com.iwakeup.countdown.myapplication;
+package com.iwakeup.clockview;
 
-import android.animation.AnimatorSet;
-import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -10,8 +8,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.iwakeup.countdown.myapplication.States.CircleState;
-import com.iwakeup.countdown.myapplication.States.DefaultState;
+import com.iwakeup.clockview.States.CircleState;
 
 /**
  * Created by humin06 on 2018/12/19.

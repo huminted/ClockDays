@@ -1,12 +1,11 @@
-package com.iwakeup.countdown.myapplication.States;
+package com.iwakeup.clockview.States;
 
 import android.graphics.Color;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import com.iwakeup.countdown.myapplication.R;
+import com.iwakeup.clockview.R;
 
 import static android.view.View.VISIBLE;
 

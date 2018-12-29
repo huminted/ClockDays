@@ -1,14 +1,14 @@
-package com.iwakeup.countdown.myapplication;
+package com.iwakeup.clockview;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.LinearLayout;
 
-import com.iwakeup.countdown.myapplication.States.CircleState;
-import com.iwakeup.countdown.myapplication.States.DefaultState;
-import com.iwakeup.countdown.myapplication.States.NowDaySignedState;
-import com.iwakeup.countdown.myapplication.States.NowDayState;
-import com.iwakeup.countdown.myapplication.States.SignedState;
+import com.iwakeup.clockview.States.CircleState;
+import com.iwakeup.clockview.States.DefaultState;
+import com.iwakeup.clockview.States.NowDaySignedState;
+import com.iwakeup.clockview.States.NowDayState;
+import com.iwakeup.clockview.States.SignedState;
 import java.util.ArrayList;
 import java.util.List;
 /**

@@ -38,7 +38,7 @@ dependencies {
 ###### 2.1 Layout
 
 ```xml
-<com.iwakeup.countdown.myapplication.DayGroup
+<com.iwakeup.clockview.DayGroup
         android:id="@+id/group"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -47,7 +47,7 @@ dependencies {
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-</com.iwakeup.countdown.myapplication.DayGroup>
+</com.iwakeup.clockview.DayGroup>
 ```
 
 ###### 2.2 Activity
