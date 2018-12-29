@@ -1,5 +1,9 @@
 # ClockDays 打卡控件
 
+```
+[![](https://jitpack.io/v/huminted/ClockDays.svg)](https://jitpack.io/#huminted/ClockDays)
+```
+
 ![](https://github.com/huminted/ClockDays/blob/master/pic.png?raw=true)
 
 前两个为`setDaysSigned()下已经打卡的状态`，第三个为 `setNowDaySinged()`今日状态，  后为默认未打卡状态  
@@ -17,11 +21,16 @@
 ##### 1.引用
 
 ```
+allprojects {
+	repositories {
+			...
+	maven { url 'https://jitpack.io' }
+	}
+}
 
-
-
-
-
+dependencies {
+	implementation 'com.github.huminted:ClockDays:Tag'
+}
 ```
 
 ##### 2.使用
